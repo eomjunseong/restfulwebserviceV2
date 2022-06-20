@@ -8,7 +8,9 @@ import java.util.List;
 
 @Service
 public class UserDaoService {
+
     private static List<User> users = new ArrayList<>();
+
     static{
         users.add(new User(1, "eom1", new Date()));
         users.add(new User(2, "eom2", new Date()));
